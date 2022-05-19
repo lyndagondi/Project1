@@ -8,7 +8,7 @@ resource "aws_instance" "terraEC2" {
   instance_type = "t2.micro"
   key_name      = "terraformkp"
   tags = {
-    Name = "firstec2"
+    Name = "na-instance"
   }
 }
 resource "aws_key_pair" "terraformkp" {
